@@ -1,7 +1,7 @@
 const Blog = require("../models/blogModel");
 const User = require("../models/userModel");
 const asyncHandler = require("express-async-handler");
-const validateMongodbId = require("../utils/validateMongodbId.js");");
+const validateMongodbId = require("../utils/validateMongodbId.js");
 const {cloudinaryUploadImg, cloudinaryDeleteImg} = require("../utils/cloudinary");
 const fs = require("fs");
 
